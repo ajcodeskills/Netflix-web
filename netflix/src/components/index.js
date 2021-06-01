@@ -1,4 +1,6 @@
 export {Jumbotron} from './jumbotron';
+export {Loading} from './loading';
+export {Profiles} from './profiles';
 export {Form} from './form';
 export {Feature} from './feature';
 export {Header} from '../header';

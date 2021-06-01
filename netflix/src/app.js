@@ -1,24 +1,28 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable max-len */
 import React from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 import * as ROUTES from './constants/routes';
 import {Home, Signin, Signup, Browse} from './pages';
-
+import {IsUserRedirect, ProtectedRoute} from './helpers/Routes';
+import {useAuthListener} from './hooks';
 // eslint-disable-next-line require-jsdoc
 export function App() {
+  const {user} = useAuthListener();
   return (
     <Router>
-      <Route exact path={ROUTES.SIGN_IN}>
+      <IsUserRedirect user={user} loggedInPath = {ROUTES.BROWSE} path = {ROUTES.SIGN_IN} exact>
         <Signin />
-      </Route>
-      <Route exact path={ROUTES.SIGN_UP}>
+      </IsUserRedirect>
+      <IsUserRedirect user={user} loggedInPath = {ROUTES.BROWSE} path = {ROUTES.SIGN_UP} exact>
         <Signup />
-      </Route>
-      <Route exact path={ROUTES.BROWSE}>
+      </IsUserRedirect>
+      <ProtectedRoute user={user} path={ROUTES.BROWSE} exact>
         <Browse />
-      </Route>
-      <Route exact path={ROUTES.HOME}>
+      </ProtectedRoute>
+      <IsUserRedirect user={user} loggedInPath = {ROUTES.BROWSE} path={ROUTES.HOME} exact>
         <Home />
-      </Route>
+      </IsUserRedirect>
     </Router>
   );
 }
