@@ -1,3 +1,4 @@
+export {Card} from './card';
 export {Jumbotron} from './jumbotron';
 export {Loading} from './loading';
 export {Profiles} from './profiles';
@@ -7,3 +8,4 @@ export {Header} from '../header';
 export {OptForm} from './opt-form';
 export {Accordion} from './acordion';
 export {Footer} from '../footer';
+export {Player} from './player';
