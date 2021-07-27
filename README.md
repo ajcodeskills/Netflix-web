@@ -2,7 +2,7 @@
 
 #### Replica of a rental platform of the finest quality of products at amazing prices on rent.
 
-##Features:
+## Features:
   - Sigin and Signup
   - Browsing the content
   - Searching
