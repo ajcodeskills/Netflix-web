@@ -1,6 +1,6 @@
 ### Replica of Netflix https://www.netflix.com/in/
 
-#### Replica of a rental platform of the finest quality of products at amazing prices on rent.
+#### Replica of a very popular OTT platform Netflix, Where user can watch movies, series, anime, etc.
 
 ## Features:
   - Sigin and Signup
