@@ -1,4 +1,4 @@
-### Replica of [Rentomojo Web](https://www.rentomojo.com)
+### Replica of Netflix https://www.netflix.com/in/
 
 #### Replica of a rental platform of the finest quality of products at amazing prices on rent.
 
