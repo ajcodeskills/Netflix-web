@@ -41,8 +41,8 @@
 ## Pages:-
     - Landing Page
     - Signin and Signup page
-    - Cart page
-    - Product Page
+    - Browsing page page
+    - user Page
 ## Images:-
   # 1. Landing Page:-
   ![Screenshot from 2021-07-19 16-40-19](https://user-images.githubusercontent.com/68987839/126152601-239f1746-77f1-4ebb-a9c7-564b8a8899fc.png)
