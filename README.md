@@ -9,7 +9,7 @@
 
 ## Getting Started with Create React App
 
-    npx create-react-app Rentomojo
+    npx create-react-app Netflix-web
 
 
 ## Library used:- 
