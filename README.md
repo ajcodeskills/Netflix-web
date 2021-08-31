@@ -18,22 +18,14 @@
   
    
       npm i firebase
-
-  ### 2. fuse.js
-  
-      npm i fuse.js
-   
-  ### 3. normalize.css
-  
-     npm i normalize.css
      
  
-  ### 4. Styled Components
+  ### 2. Styled Components
   
 
      npm i styled-components
 
-  ### 5. Axios
+  ### 3. Axios
   
   
      npm i axios
